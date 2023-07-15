@@ -1,8 +1,7 @@
 include < stdio.h >
-
 /**
- * main -A program that uses printf fuction
- * Return: 0 (means successful)
+ * Main -A program that uses printf fuction
+ * Return: (0) means sucessful
  */
 
 int main(void)

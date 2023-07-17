@@ -17,15 +17,15 @@ int main(void)
 	printf("The number is %d %d", n, num);
 	if (num > 0)
 	{
-	printf("is positive\n");
+	printf("The number is positive\n");
 	}
 	else if (num == 0)
 	{
-	printf("is zero\n");
+	printf("The number is zero\n");
 	}
 	else
 	{
-	printf("is negative\n");
+	printf("The number is negative\n");
 	}
 	return (0);
 }

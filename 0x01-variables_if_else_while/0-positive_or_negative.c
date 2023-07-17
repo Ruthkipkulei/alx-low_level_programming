@@ -10,22 +10,22 @@ int main(void)
 	int n;
 	int num;
 
-	num = 0;
+	num = !0;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	printf("The number is %d %d", n, num);
 	if (num > 0)
 	{
-	printf("The number is positive\n");
+	printf("is positive\n");
 	}
 	else if (num == 0)
 	{
-	printf("The number is zero\n");
+	printf("is zero\n");
 	}
 	else
 	{
-	printf("The number is negative\n");
+	printf("is negative\n");
 	}
 	return (0);
 }
